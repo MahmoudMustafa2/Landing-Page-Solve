@@ -1,0 +1,420 @@
+<!--ان شاء الله هيتم تقسيم هذا المشروع لاجزاء-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./styles/newstyle.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"> -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--Header-->
+      <header class="header">
+
+        <div class="logo">
+          <img class="logo" src="./resource/Logo.svg" alt="logo" />
+        </div>
+
+        <nav class="navigation">
+          <ul class="ul__navigation">
+            <a class="nav-link" href="#About">About</a>
+            <a class="nav-link" href="#Features">Features</a>
+            <a class="nav-link" href="#Pricing">Pricing</a>
+            <a class="nav-link" href="#Testimonials">Testimonials</a>
+            <a class="nav-link" href="#Help">Help</a>
+          </ul>
+        </nav>
+
+        <div class="header-buttons">
+          <button class="header-btn1">Sign In</button>
+          <button class="header-btn2">Sign Up</button>
+        </div>
+      </header>
+
+      <!--introduction-->
+      <section class="introduction">
+        <div class="introduction__left" id="About">
+          <h1 class="intro-label">
+            Want anything to be easy with
+            <strong class="s1"> LaslesVPN.</strong>
+          </h1>
+          <p class="intro-text second-text">
+            Provide a network for all your needs with ease and fun using
+            <strong class="s2"> LaslesVPN</strong> discover interesting features
+            from us.
+          </p>
+          <button class="intro-btn">Get Started</button>
+        </div>
+
+        <div class="intro-image">
+          <img id="intro-image" src="/resource/Illustration 1.svg" />
+        </div>
+      </section>
+
+      <!--row 3 icons-->
+      <section class="icons__row">
+        <div class="block b1">
+          <img class="imgitem" src="/resource/user.png" />
+          <p class="num-des"><strong class="num">90+</strong><br />Users</p>
+        </div>
+        <div class="block b2">
+          <img class="imgitem" src="/resource/location.png" />
+          <p class="num-des"><strong class="num">30+</strong><br />Locations</p>
+        </div>
+        <div class="block b3">
+          <img class="imgitem" src="/resource/Server.png" />
+          <p class="num-des"><strong class="num">50+</strong><br />Servers</p>
+        </div>
+      </section>
+
+      <div class="hidden-rectangel"></div>
+
+      <!--features-->
+      <section class="features" id="Features">
+        <div class="features-image">
+          <img id="feature-image" src="./resource/Illustration 2.svg" />
+        </div>
+
+        <div class="features-right">
+          <h3 class="Features__title first-text">
+            We Provide Many Features You Can Use
+          </h3>
+          <p class="Features__intro second-text">
+            You can explore the features that we provide with fun and have their
+            own functions each feature.
+          </p>
+          <div class="element">
+            <div class="img-row">
+              <div class="img_icon">
+                <img src="./resource/Group 1120.png" />
+              </div>
+              <div class="li-of-features">Powerfull online protection.</div>
+            </div>
+
+            <div class="img-row">
+              <div class="img_icon">
+                <img src="./resource/Group 1120.png" />
+              </div>
+              <div class="li-of-features">Internet without borders.</div>
+            </div>
+
+            <div class="img-row">
+              <div class="img_icon">
+                <img src="./resource/Group 1120.png" />
+              </div>
+              <div class="li-of-features">Supercharged VPN</div>
+            </div>
+
+            <div class="img-row">
+              <div class="img_icon">
+                <img src="./resource/Group 1120.png" />
+              </div>
+              <div class="li-of-features">No specific time limits.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--plans-->
+      <section class="plans">
+        <div class="plan_title">
+          <h3 class="title-of-plan first-text" id="Pricing">
+            Choose Your Plan
+          </h3>
+          <p class="plan__intro second-text">
+            Let's choose the package that is best for you and explore it happily
+            and cheerfully.
+          </p>
+        </div>
+
+        <div class="plans-layouts">
+          <div class="plan-layout">
+            <img class="plan__img" src="./resource/Premium.svg" />
+            <h5 class="plan__name">Free Plan</h5>
+            <ul class="plan_adv_list">
+              <li class="pl-it">Unlimited Bandwitch</li>
+              <li class="pl-it">EncryptedConnection</li>
+              <li class="pl-it">No Traffic Logs</li>
+              <li class="pl-it">Work on All Devices</li>
+            </ul>
+            <h3 class="price price-strong">Free</h3>
+            <button class="plan__btn">Select</button>
+          </div>
+
+          <div class="plan-layout">
+            <img class="plan__img" src="./resource/Premium.svg" />
+            <h5 class="plan__name">Standard Plan</h5>
+            <ul class="plan_adv_list">
+              <li class="pl-it">Unlimited Bandwitch</li>
+              <li class="pl-it">EncryptedConnection</li>
+              <li class="pl-it">Yes Traffic Logs</li>
+              <li class="pl-it">Work on All Devices</li>
+              <li class="pl-it">Connect Anyware</li>
+            </ul>
+            <h3 class="price"><strong class="price-strong">$9</strong>/mo</h3>
+            <button class="plan__btn">Select</button>
+          </div>
+          <div class="plan-layout">
+            <img class="plan__img" src="./resource/Premium.svg" />
+            <h4 class="plan__name">Premium Plan</h4>
+            <ul class="plan_adv_list">
+              <li class="pl-it">Unlimited Bandwitch</li>
+              <li class="pl-it">EncryptedConnection</li>
+              <li class="pl-it">No Traffic Logs</li>
+              <li class="pl-it">Work on All Devices</li>
+              <li class="pl-it">Connect Anyware</li>
+              <li class="pl-it">Get New Features</li>
+            </ul>
+            <h3 class="price"><strong class="price-strong">$12</strong>/mo</h3>
+            <button class="plan__btn">Select</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Network-->
+      <section class="Network">
+        <div class="network_title">
+          <h3 class="title-of-network first-text">
+            Huge Global Network of Fast VPN
+          </h3>
+          <p class="network__intro second-text">
+            See <strong> LaslesVPN </strong> everywhere to make it easier for
+            you when you move locations.
+          </p>
+        </div>
+        <div class="world__image">
+          <img
+            id="world-img"
+            src="./resource/Huge Global.svg"
+            alt="Huge Global image"
+          />
+          <img
+            id="sponsored-img"
+            src="./resource/Sponsored.jpg"
+            alt="Sponsored image"
+          />
+          <!-- عملت تعديل علي الصورة لاني ضد نت فلكس-->
+        </div>
+      </section>
+
+      <!--clients -->
+      <section class="clients">
+        <div class="clients_title" id="Testimonials">
+          <h3 class="clients-label first-text">
+            Trusted by Thousands of Happy Customer
+          </h3>
+          <p class="clients__intro second-text">
+            These are the stories of our customers who have joined us with great
+            pleasure when using this crazy feature.
+          </p>
+        </div>
+
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <div class="client" id="c1">
+
+
+              <!-- اول عميل-->
+              <div class="top">
+                <div class="left-part">
+                  <img class="client_img" src="./resource/clients/me.jpg" />
+                  <h4 class="client_name">
+                    Mahmoud Mustafa <span class="city">Egypt,Qena</span>
+                  </h4>
+                </div>
+
+                <div class="right-part">
+                  <p class="rate">5</p>
+                  <img class="star" src="./resource/star.png" alt="" />
+                </div>
+              </div>
+
+              <div class="bottom">
+                <p class="client__opinion">
+                  "LaslesVPN has been an excellent tool for ensuring my online privacy and security. The connection speed is fast, and the interface is user-friendly. I highly recommend it for anyone looking for a reliable VPN service. Customer support was also unresponsive. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit quasi necessitatibus."
+                </p>
+              </div>
+            </div>
+
+            <div class="client" id="c2">
+              <!-- ثانى عميل-->
+              <div class="top">
+                <div class="left-part">
+                  <img class="client_img" src="./resource/clients/ahmed mohamed.jpg" />
+                  <h4 class="client_name">
+                   Mahmoud Ibrahim <span class="city">Egypt,Aswan</span>
+                  </h4>
+                </div>
+                <div class="right-part">
+                  <p class="rate">2</p>
+                  <img class="star" src="./resource/star.png" alt="" />
+                </div>
+              </div>
+              <div class="bottom">
+                <p class="client__opinion">
+                  "I had high hopes for LaslesVPN, but unfortunately, it didn't meet my expectations. The connection frequently drops, and I experienced slow speeds during peak hours. Customer support was also unresponsive.  Alias reprehenderit quasi necessitatibus. Impedit ipsa repudiandae numquam doloremque officiis nobis! Vero.
+                </p>
+              </div>
+            </div>
+
+            <div class="client" id="c3">
+              <!-- ثالث عميل-->
+              <div class="top">
+                <div class="left-part">
+                  <img class="client_img" src="./resource/clients/aly ALAA.jpg" />
+                  <h4 class="client_name">
+                   Mohamed Mustafa <span class="city">Egypt,Luxor</span>
+                  </h4>
+                </div>
+                <div class="right-part">
+                  <p class="rate">5</p>
+                  <img class="star" src="./resource/star.png" alt="" />
+                </div>
+              </div>
+              <div class="bottom">
+                <p class="client__opinion">
+                  "LaslesVPN has been great for streaming. I can access geo-restricted content without any buffering issues. The variety of servers available ensures I always have a fast connection Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut at, mollitia praesentium pariatur placeat eos sequi repudiandae saepe a quia.."
+                </p>
+              </div>
+            </div>
+
+            <div class="client" id="c4">
+              <!-- رابع عميل-->
+              <div class="top">
+                <div class="left-part">
+                  <img class="client_img" src="./resource/clients/gamal ayman.jpeg" />
+                  <h4 class="client_name">
+                   Abdelrahman Aly <span class="city">Egypt,Qena</span>
+                  </h4>
+                </div>
+                <div class="right-part">
+                  <p class="rate">4</p>
+                  <img class="star" src="./resource/star.png" alt="" />
+                </div>
+              </div>
+              <div class="bottom">
+                <p class="client__opinion">
+                  "LaslesVPN is a decent service, but there's room for improvement. It would be beneficial to have more advanced settings for tech-savvy users and a better mobile app experience. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem suscipit rerum, odio ipsam dicta aut aliquid ut quo laboriosam rem!
+                  "
+                </p>
+              </div>
+            </div>
+
+           
+          </div>
+        </div>
+        <!-- ده الجزء بتاع زر الانتقال بين الاراء-->
+        <div class="buttons_scroll">
+    <div class="scroll-points">
+<label class="point p1"></label>
+<label class="point p2"></label>
+<label class="point p3 "></label>
+<label class="point p4"></label>
+    </div>
+
+
+<div class="buttons">
+  <button type="submit" class="btn_scroll">←</button>
+          <button type="submit" class="btn_scroll">→</button>
+
+</div>
+        
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--subscribe-->
+
+      <section class="subscribe">
+        <div class="left-part-of-subscribe">
+          <h3 class="Subscribe-title first-text">
+            Subscribe Now for Get Special Features!
+          </h3>
+          <p class="Subscribe-text second-text">
+            Let's subscribe with us and find the fun.
+          </p>
+        </div>
+
+        <div class="right-part-of-subscribe">
+          <button class="subscribe-button">Subscribe Now</button>
+        </div>
+      </section>
+
+      <!--footer-->
+
+      <footer class="footer" id="Help">
+        <div class="left-part-of-footer">
+          <img class="logo-footer" src="./resource/Logo.svg" alt="logo" />
+          <p class="footer-text second-text">
+            <strong>LaslesVPN</strong> is a private virtual network that has
+            unique features and has high security.
+          </p>
+          <div class="footer-links">
+            <a class="footer-icon" href="#"
+              ><img src="./resource/Facebook.svg" alt="Facebook icon"
+            /></a>
+            <a class="footer-icon" href="#"
+              ><img src="./resource/Twitter.svg" alt="Twitter"
+            /></a>
+            <a class="footer-icon" href="#"
+              ><img src="./resource/Instagram.svg" alt="Instagram icon"
+            /></a>
+          </div>
+          <p class="copyright">©2020LaslesVPN</p>
+        </div>
+
+        <div class="right-part-of-footer">
+          <div class="product">
+            <ul class="product-list">
+              <h4 class="listname">Product</h4>
+              <li class="item">Download</li>
+              <li class="item">Pricing</li>
+              <li class="item">Locations</li>
+              <li class="item">Server</li>
+              <li class="item">Countries</li>
+              <li class="item">Blog</li>
+            </ul>
+          </div>
+
+          <div class="engage">
+            <ul class="engage-list">
+              <h4 class="listname">Engage</h4>
+              <li class="item">LaslesVPN ?</li>
+              <li class="item">FAQ</li>
+              <li class="item">Tutorials</li>
+              <li class="item">About Us</li>
+              <li class="item">Privacy Policy</li>
+              <li class="item">Terms of Service</li>
+            </ul>
+          </div>
+
+          <div class="earn-money">
+            <h4 class="listname">Earn Money</h4>
+            <ul class="earnmoney-list">
+              <li class="item">Affliate</li>
+              <li class="item">Become Partner</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div class="bg-gray"></div>
+    </div>
+  </body>
+</html>
